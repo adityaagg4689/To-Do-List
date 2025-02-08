@@ -1,0 +1,159 @@
+/* Container styling for the overall To-Do list */
+#list {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Each To-Do item card */
+.wrapper {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  overflow:hidden;
+  flex-direction: column;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* The title or name of the task */
+.div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;  
+
+  margin-bottom: 10px;
+}
+
+/* The text input for notes */
+.input {
+  height: 40px;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* The date input (ink) styling */
+.ink {
+  height: 40px;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Styling for the Update button */
+.submit {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #43a047;
+}
+
+/* Styling for the Delete button */
+.del {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.del:hover {
+  background-color: #e53935;
+}
+/* Global Styles */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Form Styling */
+#myForm {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myForm input[type="text"] {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+}
+
+#myForm input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+#myForm button {
+  background-color: #28a745;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#myForm button:hover {
+  background-color: #218838;
+}
+
+/* To-Do List Container */
+#list {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 0;
+  list-style: none;
+}
+
+/* Individual Task Items */
+#list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* You can add additional styles for buttons inside list items if needed */
+.sel option {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
